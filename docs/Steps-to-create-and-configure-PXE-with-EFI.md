@@ -19,7 +19,7 @@ sudo apt update && sudo apt -y install aptitude ansible git git-lfs
 ```
 eval $(ssh-agent -s)
 ssh-add $YOUR-KEY-AT-GITHUB
-git clone git@github.com:EWCHRG/nucprov.git
+git clone git@github.com:EWCHRG/autoprov.git
 ```
 
 ### Create base image
